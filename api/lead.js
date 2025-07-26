@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 const { WEBHOOK_URL, PERSONA_FIELD } = process.env;
 
 export default async (req, res) => {
